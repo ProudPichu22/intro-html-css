@@ -1,7 +1,7 @@
 body {
     background-color: darkblue;
     font-family: "Times New Roman", serif;
-    background-image: url("../img/34.jpg");
+    background-image: url("../img/15.jpg");
     background-position: center;
 }
 
@@ -55,4 +55,25 @@ img {
     width: 24px;
     display: block;
     margin: auto;
+}
+
+.indent {
+    list-style-type: none;
+    text-indent: -1.2em;
+    padding-left: 2em;
+    position: relative;
+}
+
+.indent::before {
+    content: "⤷";
+    position: absolute;
+    left: 20px;
+}
+
+.left {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: auto;
+    height: auto;
 }
